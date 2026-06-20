@@ -8,6 +8,7 @@
   --teal:#1F5E5A;
   --muted:#75695A;
 }
+html{scroll-behavior:smooth;}
 *{box-sizing:border-box;}
 body{
   margin:0;
