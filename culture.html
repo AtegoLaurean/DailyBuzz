@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Daily Buzz — Culture</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="eyebrow"><span id="today-date"></span> · Prime Edition</div>
+  <h1 class="title"><a href="index.html">Daily <span>Buzz</span></a></h1>
+  <div class="subline">
+    <span>Vol. 1, No. 1</span>
+    <span>Culture Desk</span>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="world.html">World</a></li>
+    <li><a href="people.html">People</a></li>
+    <li><a href="culture.html" class="active">Culture</a></li>
+    <li><a href="business.html">Business</a></li>
+    <li><a href="opinion.html">Opinion</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<div class="kicker">Section</div>
+<h1 class="headline">Culture</h1>
+<p class="section-intro">Film, music, gaming, and the trends everyone's talking about this week.</p>
+
+<div class="feature-card">
+  <div class="kicker">Film</div>
+  <h2><a href="#">Surprise Indie Hit Becomes the Summer's Most-Talked-About Movie</a></h2>
+  <p>Made on a shoestring budget and shot in three weeks, the film is now drawing sold-out crowds and awards-season buzz.</p>
+  <div class="meta">By Daily Buzz Culture Desk · 5 min read</div>
+</div>
+
+<div class="card-grid">
+  <div class="story-card">
+    <div class="kicker">Gaming</div>
+    <h3><a href="#">Cozy Farming Sim Becomes an Unlikely Esports Sensation</a></h3>
+    <p>Tournament organizers say the laid-back game has drawn a surprisingly competitive following.</p>
+    <div class="meta">4 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">TV</div>
+    <h3><a href="#">Streaming Series Renewed for Three More Seasons After Record Debut</a></h3>
+    <p>The slow-burn mystery drama became the platform's most-watched premiere of the year.</p>
+    <div class="meta">3 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Food</div>
+    <h3><a href="#">The Dessert Trend Taking Over Every Bakery Window</a></h3>
+    <p>Part pastry, part science experiment — and lines are forming before doors even open.</p>
+    <div class="meta">4 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Internet</div>
+    <h3><a href="#">How a 30-Second Clip Turned a Street Musician Into a Headliner</a></h3>
+    <p>One video, eight million views, and a sold-out tour three months later.</p>
+    <div class="meta">5 min read</div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  © 2026 Daily Buzz · NewWave Media
+</footer>
+
+<script>
+  document.getElementById('today-date').textContent = new Date().toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Daily Buzz — Opinion</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="eyebrow"><span id="today-date"></span> · Prime Edition</div>
+  <h1 class="title"><a href="index.html">Daily <span>Buzz</span></a></h1>
+  <div class="subline">
+    <span>Vol. 1, No. 1</span>
+    <span>Opinion Desk</span>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="world.html">World</a></li>
+    <li><a href="people.html">People</a></li>
+    <li><a href="culture.html">Culture</a></li>
+    <li><a href="business.html">Business</a></li>
+    <li><a href="opinion.html" class="active">Opinion</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<div class="kicker">Section</div>
+<h1 class="headline">Opinion</h1>
+<p class="section-intro">Commentary and analysis from writers across our network — sharp takes, not house positions.</p>
+
+<div class="feature-card">
+  <div class="kicker">Editorial</div>
+  <h2><a href="#">Maybe the Algorithm Isn't the Villain We Made It Out to Be</a></h2>
+  <p>A case for why some of this year's biggest creative breakouts happened because of recommendation engines, not despite them.</p>
+  <div class="meta">By a Daily Buzz Contributor · 7 min read</div>
+</div>
+
+<div class="card-grid">
+  <div class="story-card">
+    <div class="kicker">Commentary</div>
+    <h3><a href="#">Slow Travel Isn't a Trend. It's a Correction.</a></h3>
+    <p>Why fewer, longer trips might be the most honest response to years of burnout-driven vacations.</p>
+    <div class="meta">4 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Analysis</div>
+    <h3><a href="#">The Four-Day Week Debate Is Missing the Real Question</a></h3>
+    <p>It's not about fewer hours. It's about who gets to decide how the saved time is spent.</p>
+    <div class="meta">6 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Essay</div>
+    <h3><a href="#">I Deleted Every App Except One. Here's What Happened.</a></h3>
+    <p>A month-long experiment in single-tasking, and what it revealed about attention.</p>
+    <div class="meta">5 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Letters</div>
+    <h3><a href="#">Readers Respond: Last Month's Piece on Remote Work</a></h3>
+    <p>A selection of replies, agreements, and a few pointed disagreements.</p>
+    <div class="meta">3 min read</div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  © 2026 Daily Buzz · NewWave Media
+</footer>
+
+<script>
+  document.getElementById('today-date').textContent = new Date().toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Daily Buzz — Business</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="eyebrow"><span id="today-date"></span> · Prime Edition</div>
+  <h1 class="title"><a href="index.html">Daily <span>Buzz</span></a></h1>
+  <div class="subline">
+    <span>Vol. 1, No. 1</span>
+    <span>Business Desk</span>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="world.html">World</a></li>
+    <li><a href="people.html">People</a></li>
+    <li><a href="culture.html">Culture</a></li>
+    <li><a href="business.html" class="active">Business</a></li>
+    <li><a href="opinion.html">Opinion</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<div class="kicker">Section</div>
+<h1 class="headline">Business</h1>
+<p class="section-intro">Markets, startups, and the ideas turning into companies worth watching.</p>
+
+<div class="feature-card">
+  <div class="kicker">Startups</div>
+  <h2><a href="#">College Dropout's Side Project Now Valued at $2 Billion</a></h2>
+  <p>What began as a weekend app to split grocery bills with roommates has become one of the year's fastest-growing fintech companies.</p>
+  <div class="meta">By Daily Buzz Business Desk · 6 min read</div>
+</div>
+
+<div class="card-grid">
+  <div class="story-card">
+    <div class="kicker">Retail</div>
+    <h3><a href="#">Small-Batch Coffee Roaster Goes From Garage to 40 Storefronts</a></h3>
+    <p>The founder says staying small for the first five years is exactly what made the scale-up work.</p>
+    <div class="meta">4 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Markets</div>
+    <h3><a href="#">Four-Day Workweek Pilot Boosts Productivity, Companies Report</a></h3>
+    <p>Early results from a year-long trial have more employers asking how to make the switch.</p>
+    <div class="meta">5 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Careers</div>
+    <h3><a href="#">Why More Graduates Are Choosing Trade Schools Over College</a></h3>
+    <p>Enrollment is up sharply as skilled-trade salaries climb past many entry-level office jobs.</p>
+    <div class="meta">5 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Sustainability</div>
+    <h3><a href="#">Furniture Brand's Take-Back Program Diverts 50,000 Pieces From Landfills</a></h3>
+    <p>Customers return old pieces for store credit, and the company refurbishes them for resale.</p>
+    <div class="meta">4 min read</div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  © 2026 Daily Buzz · NewWave Media
+</footer>
+
+<script>
+  document.getElementById('today-date').textContent = new Date().toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Daily Buzz — World</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="eyebrow"><span id="today-date"></span> · Prime Edition</div>
+  <h1 class="title"><a href="index.html">Daily <span>Buzz</span></a></h1>
+  <div class="subline">
+    <span>Vol. 1, No. 1</span>
+    <span>World Desk</span>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="world.html" class="active">World</a></li>
+    <li><a href="people.html">People</a></li>
+    <li><a href="culture.html">Culture</a></li>
+    <li><a href="business.html">Business</a></li>
+    <li><a href="opinion.html">Opinion</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<div class="kicker">Section</div>
+<h1 class="headline">World</h1>
+<p class="section-intro">The bigger picture — breakthroughs, milestones, and good news from around the globe.</p>
+
+<div class="feature-card">
+  <div class="kicker">Environment</div>
+  <h2><a href="#">Coral Reef Once Declared "Dead" Shows Signs of Full Recovery</a></h2>
+  <p>Marine biologists say a decade-long restoration project off the coast has produced results faster than anyone predicted.</p>
+  <div class="meta">By Daily Buzz World Desk · 5 min read</div>
+</div>
+
+<div class="card-grid">
+  <div class="story-card">
+    <div class="kicker">Science</div>
+    <h3><a href="#">City Replaces Entire Bus Fleet With Electric Models Ahead of Schedule</a></h3>
+    <p>Officials say air quality readings have already improved along the busiest transit corridors.</p>
+    <div class="meta">4 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Innovation</div>
+    <h3><a href="#">Student-Built Water Filter Wins Global Design Prize</a></h3>
+    <p>The low-cost device is now being piloted in three countries facing clean water shortages.</p>
+    <div class="meta">6 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Travel</div>
+    <h3><a href="#">Once-Overlooked Coastal Town Named This Year's Top Destination</a></h3>
+    <p>Quiet beaches, a thriving food scene, and a brand-new rail link are putting it on the map.</p>
+    <div class="meta">3 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Wildlife</div>
+    <h3><a href="#">Endangered Species Population Triples After Decade of Conservation Work</a></h3>
+    <p>Rangers credit a community-led monitoring program for the rebound.</p>
+    <div class="meta">5 min read</div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  © 2026 Daily Buzz · NewWave Media
+</footer>
+
+<script>
+  document.getElementById('today-date').textContent = new Date().toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Daily Buzz — People</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="eyebrow"><span id="today-date"></span> · Prime Edition</div>
+  <h1 class="title"><a href="index.html">Daily <span>Buzz</span></a></h1>
+  <div class="subline">
+    <span>Vol. 1, No. 1</span>
+    <span>People & Culture</span>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="world.html">World</a></li>
+    <li><a href="people.html" class="active">People</a></li>
+    <li><a href="culture.html">Culture</a></li>
+    <li><a href="business.html">Business</a></li>
+    <li><a href="opinion.html">Opinion</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<div class="kicker">Section</div>
+<h1 class="headline">People</h1>
+<p class="section-intro">The personalities making headlines this week — from boardrooms to red carpets.</p>
+
+<div class="feature-card">
+  <div class="kicker">People · Rankings</div>
+  <h2><a href="article-top10.html">Top 10 Influential Somali Ladies</a></h2>
+  <p>From boardrooms to ballots, a new generation of Somali women is rewriting what leadership looks like across the diaspora. Topping the list: Kenya-based entrepreneur Swabra Ibrahim Bahmaz.</p>
+  <div class="meta">By the Daily Buzz Staff · 6 min read</div>
+</div>
+
+<div class="card-grid">
+  <div class="story-card">
+    <div class="kicker">Music</div>
+    <h3><a href="#">Indie Singer's Surprise Album Drop Breaks Streaming Records</a></h3>
+    <p>Released with zero promotion at midnight, the project racked up ten million streams before sunrise.</p>
+    <div class="meta">4 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Sports</div>
+    <h3><a href="#">Rookie Goalkeeper's Penalty Save Sends Hometown Club to Finals</a></h3>
+    <p>A 19-year-old academy graduate becomes the unlikely hero of the season.</p>
+    <div class="meta">3 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Q&amp;A</div>
+    <h3><a href="#">"I Just Wanted to Make Something Fun"</a></h3>
+    <p>The animator behind this year's breakout indie game on creative risk-taking and burnout recovery.</p>
+    <div class="meta">7 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Good News</div>
+    <h3><a href="#">Retired Teacher's Free Tutoring Van Now Serves Five Towns</a></h3>
+    <p>What started as one woman and a whiteboard has grown into a full community program.</p>
+    <div class="meta">5 min read</div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  © 2026 Daily Buzz · NewWave Media
+</footer>
+
+<script>
+  document.getElementById('today-date').textContent = new Date().toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+  });
+</script>
+
+</body>
+</html>

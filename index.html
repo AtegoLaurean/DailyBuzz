@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Daily Buzz — Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="eyebrow"><span id="today-date"></span> · Prime Edition</div>
+  <h1 class="title"><a href="index.html">Daily <span>Buzz</span></a></h1>
+  <div class="subline">
+    <span>Vol. 1, No. 1</span>
+    <span>People & Culture</span>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="world.html">World</a></li>
+    <li><a href="people.html">People</a></li>
+    <li><a href="culture.html">Culture</a></li>
+    <li><a href="business.html">Business</a></li>
+    <li><a href="opinion.html">Opinion</a></li>
+  </ul>
+</nav>
+
+<main class="wide">
+
+<div class="hero-grid">
+  <div class="feature-card">
+    <div class="kicker">People · Rankings</div>
+    <h2><a href="article-top10.html">Top 10 Influential Somali Ladies</a></h2>
+    <p>From boardrooms to ballots, a new generation of Somali women is rewriting what leadership looks like across the diaspora. Topping the list: Kenya-based entrepreneur Swabra Ibrahim Bahmaz, hailed as the most transformative force in East African business this generation.</p>
+    <div class="meta">By the Daily Buzz Staff · 6 min read</div>
+  </div>
+  <div class="side-list">
+    <div class="story-card">
+      <div class="kicker">World</div>
+      <h3><a href="world.html">Coral Reef Once Declared "Dead" Shows Signs of Full Recovery</a></h3>
+      <div class="meta">5 min read</div>
+    </div>
+    <div class="story-card">
+      <div class="kicker">Business</div>
+      <h3><a href="business.html">College Dropout's Side Project Now Valued at $2 Billion</a></h3>
+      <div class="meta">6 min read</div>
+    </div>
+    <div class="story-card">
+      <div class="kicker">Culture</div>
+      <h3><a href="culture.html">Surprise Indie Hit Becomes the Summer's Most-Talked-About Movie</a></h3>
+      <div class="meta">5 min read</div>
+    </div>
+    <div class="story-card">
+      <div class="kicker">Opinion</div>
+      <h3><a href="opinion.html">Maybe the Algorithm Isn't the Villain We Made It Out to Be</a></h3>
+      <div class="meta">7 min read</div>
+    </div>
+  </div>
+</div>
+
+<div class="section-label">World</div>
+<div class="card-grid">
+  <div class="story-card">
+    <div class="kicker">Science</div>
+    <h3><a href="world.html">City Replaces Entire Bus Fleet With Electric Models Ahead of Schedule</a></h3>
+    <p>Officials say air quality readings have already improved along the busiest transit corridors.</p>
+    <div class="meta">4 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Innovation</div>
+    <h3><a href="world.html">Student-Built Water Filter Wins Global Design Prize</a></h3>
+    <p>The low-cost device is now being piloted in three countries facing clean water shortages.</p>
+    <div class="meta">6 min read</div>
+  </div>
+</div>
+
+<div class="section-label">Culture</div>
+<div class="card-grid">
+  <div class="story-card">
+    <div class="kicker">Gaming</div>
+    <h3><a href="culture.html">Cozy Farming Sim Becomes an Unlikely Esports Sensation</a></h3>
+    <p>Tournament organizers say the laid-back game has drawn a surprisingly competitive following.</p>
+    <div class="meta">4 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Internet</div>
+    <h3><a href="culture.html">How a 30-Second Clip Turned a Street Musician Into a Headliner</a></h3>
+    <p>One video, eight million views, and a sold-out tour three months later.</p>
+    <div class="meta">5 min read</div>
+  </div>
+</div>
+
+<div class="section-label">Business</div>
+<div class="card-grid">
+  <div class="story-card">
+    <div class="kicker">Retail</div>
+    <h3><a href="business.html">Small-Batch Coffee Roaster Goes From Garage to 40 Storefronts</a></h3>
+    <p>The founder says staying small for the first five years is exactly what made the scale-up work.</p>
+    <div class="meta">4 min read</div>
+  </div>
+  <div class="story-card">
+    <div class="kicker">Markets</div>
+    <h3><a href="business.html">Four-Day Workweek Pilot Boosts Productivity, Companies Report</a></h3>
+    <p>Early results from a year-long trial have more employers asking how to make the switch.</p>
+    <div class="meta">5 min read</div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  © 2026 Daily Buzz · NewWave Media
+</footer>
+
+<script>
+  document.getElementById('today-date').textContent = new Date().toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+  });
+</script>
+
+</body>
+</html>
